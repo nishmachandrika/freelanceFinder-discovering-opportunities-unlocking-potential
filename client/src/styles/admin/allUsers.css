@@ -1,0 +1,52 @@
+
+.all-users-page{
+    padding: 4vh 2vw;
+
+}
+
+.all-users-page h3{
+    margin: 0;
+    font-size: 2.5rem;
+    color: rgb(22, 129, 129);
+    font-weight: 500;
+    text-align: center;
+
+
+}
+
+.all-users{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+
+.user{
+
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    border: 1px solid #ee460e5b;
+    padding: 2vh 1.5vw;
+    border-radius: 0.8rem;
+}
+
+.user span{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.user span b{
+    margin: 0;
+    font-weight: 500;
+    color: rgb(22, 129, 129);
+}
+
+.user span p{
+
+    margin: 0;
+    color: rgba(22, 95, 129, 0.728);
+}
